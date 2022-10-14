@@ -3,6 +3,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .part-one {
@@ -29,14 +30,43 @@ ul {
     gap: 20px;
 }
 
+.below-header {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 32px;
+    gap: 32px;
+}
+
 .part-one img {
     width: 400px;
     height: auto;
 }
 
+.part-two {
+    padding: 96px;
+}
+
+#p2_head {
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+    position: relative;
+    top: -40px;
+}
+
+.characters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+}
+
 .part-two img {
     width: 400px;
-    height: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border: 3px solid #3882F6;
 }
 
 .part-three {
@@ -45,7 +75,7 @@ ul {
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
-    padding: 48px;
+    padding: 96px;
 }
 
 .part-four {
