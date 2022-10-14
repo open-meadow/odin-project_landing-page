@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.part-one {
+    background: #1f2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header div {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 20px;
+}
+
+.part-one img {
+    width: 400px;
+    height: auto;
+}
+
+.part-two img {
+    width: 400px;
+    height: 400px;
+}
