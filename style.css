@@ -34,8 +34,22 @@ ul {
     display: flex;
     justify-content: center;
     text-align: left;
-    padding: 32px;
+    padding: 60px;
     gap: 32px;
+}
+
+.below-header .text {
+    max-width: 400px;
+    padding: 10px;
+    position: relative;
+    left: -115px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 6px 17px;
 }
 
 .part-one img {
@@ -82,11 +96,14 @@ ul {
     background-color: #3882F6;
     color: #F9FAF8;
     width: 1000px;
-    padding: 24px;
+    padding: 48px;
     border-radius: 10px;
     margin: auto;
     position: relative;
-    top: 70px;
+    top: 60px;
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
 }
 
 .footer {
