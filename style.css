@@ -39,10 +39,10 @@ ul {
 }
 
 .below-header .text {
-    max-width: 400px;
+    font-size: 18px;
+    max-width: 600px;
     padding: 10px;
     position: relative;
-    left: -115px;
 }
 
 button {
@@ -53,7 +53,7 @@ button {
 }
 
 .part-one img {
-    width: 400px;
+    width: 500px;
     height: auto;
 }
 
