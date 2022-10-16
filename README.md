@@ -5,5 +5,5 @@ The Odin Project - Landing Page Assignment (https://www.theodinproject.com/lesso
 The idea is to create a page for the fictional business Dunder Mifflin, from The Office. The page is written from the perspective of the main character, Michael Scott.
 That's what she said.
 
-Made changes to index. Lost a lot of progress on style.
+
 
